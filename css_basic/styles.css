@@ -1,8 +1,14 @@
 body {
     display: flex;
     flex-direction: column;
+    color: rgb(17, 1, 17);
 }
-
+header {
+   background-color: #d23c8c;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
 main {
     display: flex;
     flex-direction: row;
@@ -12,9 +18,22 @@ main {
 article{
     flex: 2;
     overflow-y: auto;
+
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 aside{
     flex: 1;
     overflow-y: auto;
+    background-color: #d23c8c;
+}
+
+footer{
+    background-color: #d23c8c;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
